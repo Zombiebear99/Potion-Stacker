@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.zombie.potionstacker.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BrewingStandMenuMixin",
+    "ItemsMixin",
+    "PotionItemMixin",
+    "SplashPotionItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
